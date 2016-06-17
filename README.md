@@ -14,6 +14,8 @@
 
 并且也有自动在线生成LaTeX的网站。
 
+[在线网站示例一](https://www.sharelatex.com/project/57635591e3290b0b4d4ec9ce)
+
 <!--将要添加一些动画。-->
 
 ##截图
