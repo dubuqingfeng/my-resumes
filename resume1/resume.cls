@@ -42,7 +42,7 @@
 }
 
 \newcommand{\job}[1]{
-  \centerline{\scshape{#1}}
+  \centerline{\upshape{#1}}
   \vspace{1.1ex}
 }
 
