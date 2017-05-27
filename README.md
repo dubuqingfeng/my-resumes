@@ -1,6 +1,6 @@
-#一些LaTeX简历
+# 一些LaTeX简历
 
-##前言
+## 前言
 
 又是一年求职季，又是一年校招时。
 
@@ -18,21 +18,21 @@
 
 <!--将要添加一些动画。-->
 
-##截图
+## 截图
 
 简历一：
 
 ![](captures/resume1.png)
 
-##使用方法
+## 使用方法
 
 ![](captures/resume1.gif)
 
-##致谢
+## 致谢
 
 [一个简洁优雅的 XeLaTeX 简历模板](https://github.com/billryan/resume/tree/zh_CN)
 
-##后记
+## 后记
 
 十年寒窗，一朝基业。
 
