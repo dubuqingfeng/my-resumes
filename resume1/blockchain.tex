@@ -1,0 +1,60 @@
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external}
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagestyle{empty}
+
+\name{高正炎}
+\job{区块链/后端开发工程师}
+\contactInfo{{moyishizhe@gmail.com}}{18404968744}{https://dbqf.xyz}
+\section{工作经历}
+\datedsubsection{\textbf{比特大陆，硅芯扬航} , \href{https://btc.com}{BTC.com}}{2017 年 4 月 -- 2022 年 5 月}
+\begin{onehalfspacing}
+\role{负责区块链浏览器后端业务开发及架构，主要技术栈：Go，PHP，C++，Python}{2019 - 2022}
+\begin{itemize}
+  \item 负责开发浏览器 Parser、后端 API 、实时计算、爬虫、数据检查和修复等模块，梳理相关架构
+  \item 开发和维护 BTC 系列 Parser，修改相关币种代码，优化未确认交易处理
+  \item 开发和重构 Ethereum Parser，为此开发新架构版本的 Parser，支持多币种、性能优先、插件化，解析链上数据、合约数据、NFT 数据到数据库 MySQL 和 ClickHouse 等
+  \item 探索和实践浏览器实时计算，使用 PyFlink 和 ClickHouse 解决一些业务需求，使用 Flink SQL 来达到流批一体，并在 \href{https://2020.flink-forward.org.cn/}{Flink Forward Asia 2020} 发表实时计算的相关演讲
+  \item 使用微服务框架 go-micro 重新开发了浏览器业务的 API，按业务拆分模块，使用一些自动化生成工具和模板，尽可能地减少程式化编码
+\end{itemize}
+\role{负责矿池业务后端开发及架构，主要技术栈：Go，PHP，Nodejs}{2017 - 2019} 
+\begin{itemize}
+  \item 负责矿池的后端 API、后台、结算、清算统计、交易加速、消息推送模块等的设计和开发
+  \item 主导开启和开发多个项目，包括重构矿池 Web 架构，结算拆分和风控，友商矿池合作，矿池后台改造，优化新币种开发，协助运维迁移至 kubernetes，跨区数据问题等
+  \item 不断优化结算和财务报表模块，最终矿池的月度财务报表仅需两小时生成和校对完成
+  \item 开发以及完善矿池监控，包括 stratum server 和 API，监控所有矿池的联合挖矿和块高、爆块地址、Job 下发效率等
+\end{itemize}
+\end{onehalfspacing}
+
+\section{IT 技能}
+\begin{onehalfspacing}
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: Go，PHP，Python，C++
+  \item 熟悉 Bitcoin，Ethereum，了解 Solidity，NFT，并在团队内部分享 ETH 2.0
+  \item 熟悉 Flink，了解 ClickHouse，OLAP 数据分析
+  \item 熟悉安全相关内容，熟悉常见安全漏洞，并在团队内部分享智能合约安全
+  \item 数据库: MySQL，Redis
+  \item 熟悉相关爬虫开发，了解一些反爬虫技术
+\end{itemize}
+\end{onehalfspacing}
+
+\section{获奖以及实践经历}
+\datedline{Flink Forward Asia 2020 实时数仓专场演讲，实时OLAP，从0 到1 }{ 2020 年}
+\datedline{解魔方机器人, \textit{国家二等奖}, 全国第十一届博创杯比赛}{2015 年7 月}
+\datedline{创办并运营CSDN高校俱乐部社团, 并获优秀社团}{2013 年 -- 2015 年}
+
+\section{教育背景}
+\datedsubsection{\textbf{山西农业大学} \textit{本科}\ 软件工程 }{2013 -- 2017}
+
+
+\section{其他}
+\begin{itemize}[parsep=0.5ex]
+  \item 技术博客: \href{https://dbqf.xyz}{https://dbqf.xyz}
+  \item GitHub: \href{https://github.com/dubuqingfeng}{https://github.com/dubuqingfeng}
+  \item 微信: dubuqingfeng
+\end{itemize}
+
+\end{document}
